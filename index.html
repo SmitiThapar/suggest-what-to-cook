@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Suggest What to Cook</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 500px;
+      margin: 80px auto;
+      text-align: center;
+    }
+    input {
+      padding: 8px;
+      width: 250px;
+      margin-top: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      margin-left: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Suggest What to Cook — coming soon</h1>
+
+  <label for="haveOnHand">What do you have, or feel like eating?</label><br>
+  <input type="text" id="haveOnHand" placeholder="e.g. chicken thighs, half a bag of spinach">
+  <button id="submitIngredients">Submit</button>
+
+  <script>
+    document.getElementById('submitIngredients').addEventListener('click', function () {
+      // Does nothing yet — this is where we'll send this to the AI later.
+    });
+  </script>
+</body>
+</html>
